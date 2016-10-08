@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script>
+                var user = prompt("Student Name" , "Enter Your Name");
+                alert("Welcome " + user + "!");
+
+                var sub = ["Math","English","Science","Biology","Chemistry",];
+                   var marks=[];
+                for(var i = 0; i < 5; i++ ){
+                    
+                marks[i] = parseInt(prompt("Subject : " + sub[i] , " Enter Your Marks....."));
+
+                }
+                    document.write("Student Name : " + user);
+                    document.write("<br/>");
+                    for (var i = 0; i < 5; i++ ){
+                    document.write("Marks of " + sub[i] + " : " + marks[i]);
+                    document.write("<br/>");
+                    }
+                    
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
